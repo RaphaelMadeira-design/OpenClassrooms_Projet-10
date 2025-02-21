@@ -1,0 +1,22 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem;
+  height: 50px;
+  background-color: #fff;
+}
+.navbar .navbar-logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #00bc77;
+  text-decoration: none;
+}
+.navbar .navbar-links .navbar-link {
+  font-size: 1rem;
+  color: #2c3e50;
+  text-decoration: none;
+}
+.navbar .navbar-links .navbar-link i {
+  margin-right: 0.5rem;
+}/*# sourceMappingURL=Navbar.css.map */
