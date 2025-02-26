@@ -1,13 +1,32 @@
-.sign-in-content {
-    box-sizing: border-box;
-    background-color: white;
-    width: 300px;
-    margin: 3rem auto 0;
-    padding: 2rem;
-    text-align: center;
+.sign-in {
+    &--content {
+        box-sizing: border-box;
+        background-color: white;
+        width: 300px;
+        margin: 0 auto;
+        margin-top: 3rem;
+        padding: 2rem;
+    }
+    &--icon {
+        font-size: 5rem;
+    }
+    &--button {
+        display: block;
+        width: 100%;
+        padding: 8px;
+        font-size: 1.1rem;
+        font-weight: bold;
+        margin-top: 1rem;
+        border-color: #00bc77;
+        background-color: #00bc77;
+        color: #fff;
+    }
 }
-.sign-in-icon {
-    font-size: 5rem;
+.input-remember {
+    display: flex;
+    label {
+        margin-left: 0.25rem;
+    }
 }
 .input-wrapper {
     display: flex;
@@ -20,28 +39,5 @@
     input {
         padding: 5px;
         font-size: 1.2rem;
-    }
-}
-.input-remember {
-    display: flex;
-    align-items: center;
-    label {
-        margin-left: 0.25rem;
-    }
-}
-.sign-in-button {
-    display: block;
-    width: 100%;
-    padding: 8px;
-    font-size: 1.1rem;
-    font-weight: bold;
-    margin-top: 1rem;
-    border: none;
-    background-color: #00bc77;
-    color: #fff;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-    &:hover {
-        background-color: darken(#00bc77, 10%);
     }
 }

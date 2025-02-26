@@ -9,16 +9,16 @@ html {
 body {
     margin: 0;
     padding: 0;
+}
+
+.wrapper {
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
 }
   
 .main {
     flex: 1;
-    min-height: calc(100vh - 205px);
-    display: flex;
-    flex-direction: column;
 }
   
 .bg-dark {
