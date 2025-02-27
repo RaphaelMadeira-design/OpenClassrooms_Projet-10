@@ -6,12 +6,12 @@ import Accounts from '../components/Accounts/Accounts'
 import accountsData from '../data/accountsData.json'
 
 const Profile = () => {
-    const { isAuthenticated } = useSelector((state) => state.user) // Récupérer l'état de connexion
+    const { isAuthenticated } = useSelector((state) => state.user) // Je Récupère l'état de connexion
     const navigate = useNavigate()
 
     useEffect(() => {
         if (!isAuthenticated) {
-            navigate('/login') // Redirige si l'utilisateur n'est pas connecté
+            navigate('/login') // On redirige si l'utilisateur n'est pas connecté
         }
     }, [isAuthenticated, navigate])
 

@@ -18,7 +18,7 @@ const Navbar = () => {
 
     const handleLogout = () => {
         dispatch(logoutUser())
-        navigate('/login') // Redirige vers la page de login après déconnexion
+        navigate('/login') // On redirige vers la page de login après déconnexion
     }
 
     return (
