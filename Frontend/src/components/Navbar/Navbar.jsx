@@ -31,19 +31,21 @@ const Navbar = () => {
             </Link>
             {token ? (
                 <div className="main-nav--item">
-                {/* Afficher le prénom si disponible */}
                     {profile.firstName && (
-                        <span className="main-nav--item">
-                            <i className="fa fa-user-circle"></i> {profile.firstName}
-                        </span>
+                        <Link className="main-nav--item" to="/profile">
+                            <i className="fa fa-user-circle"></i>
+                            {profile.firstName}
+                        </Link>
                     )}
                     <Link className="main-nav--item" onClick={handleLogout} to="#">
-                         <i className="fa fa-sign-out-alt"></i> Sign Out
+                        <i className="fa fa-sign-out-alt"></i>
+                        Sign Out
                     </Link>
                 </div>
             ) : (
                 <Link className="main-nav--item" to="/login">
-                    <i className="fa fa-user-circle"></i> Sign In
+                    <i className="fa fa-user-circle"></i>
+                    Sign In
                 </Link>
             )}
         </nav>
