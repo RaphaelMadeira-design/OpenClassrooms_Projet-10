@@ -25,10 +25,10 @@ body {
     background-color: #12002b;
 }
 
-@import '../Navbar/navbar';
-@import '../Hero/hero';
-@import "../Features/features";
-@import "../Footer/footer";
-@import "../Form/form";
-@import "../Header/header";
-@import "../Accounts/accounts";
+@import '../../components/Navbar/navbar';
+@import '../../components/Hero/hero';
+@import '../../components/Features/features';
+@import '../../components/Footer/footer';
+@import '../../components/Form/form';
+@import '../../components/Header/header';
+@import '../../components/Accounts/accounts';

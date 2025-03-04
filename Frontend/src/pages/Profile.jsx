@@ -11,7 +11,7 @@ const Profile = () => {
 
     useEffect(() => {
         if (!isAuthenticated) {
-            navigate('/login') // On redirige si l'utilisateur n'est pas connecté
+            navigate('/') // On redirige ver sla page d'accueil si l'utilisateur n'est pas connecté
         }
     }, [isAuthenticated, navigate])
 
