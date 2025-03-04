@@ -1,7 +1,7 @@
 ### GitHub issue 1 - Home page
 
-about: Issue for the landing page requirement
-title: User can see the home page
+- About: Issue for the landing page requirement
+- Title: User can see the home page
 ---
 
 A user should be able to:
@@ -12,8 +12,8 @@ A user should be able to:
 
 ### GitHub issue 2 - Login requirement
 
-about: Issue for the login requirement
-title: User can login to the system
+- About: Issue for the login requirement
+- Title: User can login to the system
 ---
 
 A user should be able to:
@@ -26,8 +26,8 @@ A user should be able to:
 
 ### GitHub issue 3 - Logout feature
 
-about: Issue for the logout requirement
-title: User can logout to the system
+- About: Issue for the logout requirement
+- Title: User can logout to the system
 ---
 
 A user should be able to:
@@ -39,8 +39,8 @@ A user should be able to:
 
 ### GitHub issue 4 - Privacy requirement
 
-about: Issue for the privacy requirement
-title: User can only see their own profile
+- About: Issue for the privacy requirement
+- Title: User can only see their own profile
 ---
 
 After successfully logging in, a user should be able to:
@@ -52,8 +52,8 @@ After successfully logging in, a user should be able to:
 
 ### GitHub issue 5 - Update profile feature
 
-about: Issue for the profile update requirement
-title: User can update their profile
+- About: Issue for the profile update requirement
+- Title: User can update their profile
 ---
 
 A user should be able to:
@@ -64,8 +64,8 @@ A user should be able to:
 
 ### GitHub issue 6 - Redux requirement
 
-about: Issue for the Redux requirement
-title: State management is done through Redux
+- About: Issue for the Redux requirement
+- Title: State management is done through Redux
 ---
 
 The React app contains an implementation of Redux for state management that:
