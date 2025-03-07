@@ -1,3 +1,12 @@
+@use '../../components/Navbar/navbar';
+@use '../../components/Hero/hero';
+@use '../../components/Features/features';
+@use '../../components/Footer/footer';
+@use '../../components/Form/form';
+@use '../../components/Header/header';
+@use '../../components/Accounts/accounts';
+@use '../../components/Notfound/notfound';
+
 html {
     font-family: Avenir, Helvetica, Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
@@ -24,12 +33,3 @@ body {
 .bg-dark {
     background-color: #12002b;
 }
-
-@import '../../components/Navbar/navbar';
-@import '../../components/Hero/hero';
-@import '../../components/Features/features';
-@import '../../components/Footer/footer';
-@import '../../components/Form/form';
-@import '../../components/Header/header';
-@import '../../components/Accounts/accounts';
-@import '../../components/Notfound/notfound';
