@@ -60,15 +60,3 @@ Ce projet consiste à développer le front-end d'une application bancaire en uti
    - Réponses possibles avec codes HTTP correspondants.
 
 ---
-
-
-## Installation et Lancement du Projet
-
-1. **Clôner le dépôt**
-   
-2. **Installer les dépendances**
-   
-3. **Démarrer le projet**
-
-4. **Configurer l’API**
-   - Assurez-vous que le back-end est en cours d’exécution.
