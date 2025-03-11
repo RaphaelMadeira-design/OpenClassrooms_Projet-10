@@ -58,5 +58,3 @@ Ce projet consiste à développer le front-end d'une application bancaire en uti
    - Description de chaque endpoint.
    - Paramètres acceptés.
    - Réponses possibles avec codes HTTP correspondants.
-
----
